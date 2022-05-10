@@ -96,8 +96,8 @@ runs by default on `localhost:4000` and has the following endpoints:
 
 ```sh
 cd api/
-yarn install
-yarn start
+npm install
+npm run dev
 ```
 
 You can verify the API is working by visiting http://localhost:4000/repos in
@@ -112,8 +112,8 @@ The React client is a bare Create React App application.
 
 ```sh
 cd web/
-yarn install
-yarn start
+npm install
+npm start
 ```
 
 This will open your browser at http://localhost:3000, allowing you to test the
